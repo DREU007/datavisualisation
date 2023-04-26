@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "datavisualisation"
+version = "0.9"
+description = "A collection of various data visualizations in Python."
+classifiers = [
+	"Topic :: Games/Entertainment",
+	"Topic :: Games/Entertainment :: Puzzle Games"
+]
+authors = ["Denis Bolshakov <dreu007@gmail.com>"]
+repository = "https://github.com/DREU007/python-project-49"
+
+readme = "README.md"
+
+packages = [
+	{include = "matplotlib"},
+#	{include = "plotly"}
+]
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.7.1"
+plotly = "^5.14.1"
+pyqt5 = "^5.15.9"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
