@@ -1,5 +1,6 @@
 from random import choice
 
+
 class RandomWalk:
     """A class to generate random walks"""
 
@@ -11,10 +12,17 @@ class RandomWalk:
         self.x_values = [0]
         self.y_values = [0]
 
+    def get_step(self):
+        """Decide which direction to go and how far t go in that direction"""
+        direction = choice([1, -1])
+        distance = choice(range(0, 4))
+        step = direction * distance
+        return step
+
     def fill_walk(self):
         """Calculate all the points in the walk"""
 
-        # Keep taking steps until the walk reaches the desigred length
+        # Keep taking steps until the walk reaches the desired length
         while len(self.x_values) < self.num_points:
 
             x_step = self.get_step()
@@ -31,9 +39,4 @@ class RandomWalk:
             self.x_values.append(x)
             self.y_values.append(y)
 
-    def get_step(self):
-        """Decide which direction to go and how far t go in that direction"""
-        direction = choice([1, -1])
-        distance = choice(range(0, 4))
-        step = direction * distance
-        return step
+
