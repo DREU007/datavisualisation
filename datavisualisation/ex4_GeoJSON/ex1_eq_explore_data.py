@@ -20,8 +20,8 @@ mags = [eq_dict['properties']['mag'] for eq_dict in all_eq_dicts]
 lons = [eq_dict['geometry']['coordinates'][0] for eq_dict in all_eq_dicts]
 lats = [eq_dict['geometry']['coordinates'][1] for eq_dict in all_eq_dicts]
 hover_texts = [
-    eq_dict['properties']['title'] + '<br>Time: '
-    + get_time(eq_dict['properties']['time']) for eq_dict in all_eq_dicts
+    f"{eq_dict['properties']['title']} <br>Time:"
+    f" {get_time(eq_dict['properties']['time'])}" for eq_dict in all_eq_dicts
 ]
 
 data = [{

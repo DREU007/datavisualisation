@@ -16,7 +16,6 @@ with open(filename) as f:
 
 reader = csv.reader(data)
 header_ind = {head: ind for ind, head in enumerate(next(reader))}
-print(header_ind)
 
 i_lat = header_ind["latitude"]
 i_lon = header_ind["longitude"]
@@ -52,7 +51,7 @@ data = [{
     'lat': lats,
     'text': dates,
     'marker': {
-        'size': [temperature/60 for temperature in temperatures],
+        'size': [temperature / 60 for temperature in temperatures],
         'color': temperatures,
         'colorscale': 'YlOrRd',
         'colorbar': {'title': 'Brightness - Kelvin'},

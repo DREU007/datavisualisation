@@ -1,6 +1,7 @@
 import json
 import datetime
 import plotly.express as px
+import plotly.io as pio
 
 
 def get_time(timestamp):
@@ -37,7 +38,8 @@ fig = px.scatter_geo(
         for name, t in zip(names, times)
     ],
     opacity=[(t - min_time).days / time_delta.days for t in times],
-    )
+)
 
 fig.update_traces(marker_line_width=0)
-fig.show()
+# fig.show()
+pio.write_html(fig, file="global_earthquakes_px.html", auto_open=True)
