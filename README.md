@@ -25,14 +25,11 @@ rm -rf datavisualisation
 Python 3.10
 
 ### Screenshots
-[![Random walk](/Screenshots/random_walk.png "Random walk")](https://github.com/DREU007/datavisualisation/tree/main/datavisualisation/ex1_matplotlib/ex4_rw_visual.py)
-<div>
-    <a href="https://DREU007.github.io/datavisualisation/Screenshots/dice_two_d6.html"><img src="https://DREU007.github.io/datavisualisation/Screenshots/dice_two_d6.html"></a>
-</div>
+[![Random walk](https://dreu007.github.io/datavisualisation/Screenshots/random_walk.png "Random walk")](https://github.com/DREU007/datavisualisation/tree/main/datavisualisation/ex1_matplotlib/ex4_rw_visual.py)
 
 <iframe src="https://DREU007.github.io/datavisualisation/Screenshots/dice_two_d6.html" width="100%" height="500"></iframe>
 
-[![Random walk](/Screenshots/sitka_death_valley_comparison.png "Sitka - Death Valley Comparison\n2018")](https://github.com/DREU007/datavisualisation/blob/main/datavisualisation/ex3_CSV/ex6_sitka_death_valley_comparison.py)
+[![Sitka - Death Valley Comparison 2018](https://dreu007.github.io/datavisualisation/Screenshots/sitka_death_valley_comparison.png "Sitka - Death Valley Comparison 2018")](https://github.com/DREU007/datavisualisation/blob/main/datavisualisation/ex3_CSV/ex6_sitka_death_valley_comparison.py)
 
 <iframe src="https://DREU007.github.io/datavisualisation/Screenshots/global_earthquakes_px.html" width="100%" height="500"></iframe>
 
