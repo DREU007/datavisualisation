@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/DREU007/datavisualisation/actions/workflows/pyci.yml/badge.svg)](https://github.com/DREU007/datavisualisation/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/26d9872e64ca0d79e0d7/maintainability)](https://codeclimate.com/github/DREU007/datavisualisation/maintainability)
 
 ### Description
-A collection of various data visualizations in Python. Based on Python Crash Course exercises.
+**[DataVisualisation](https://github.com/DREU007/datavisualisation "GitHub")** - A collection of various data visualizations in Python. Based on Python Crash Course exercises.
 
 ### Installation
 ```
@@ -25,6 +25,8 @@ rm -rf datavisualisation
 Python 3.10
 
 ### Screenshots
+**[Web preview](https://dreu007.github.io/datavisualisation/ "GitHub Pages")**
+
 [![Random walk](https://dreu007.github.io/datavisualisation/Screenshots/random_walk.png "Random walk")](https://github.com/DREU007/datavisualisation/tree/main/datavisualisation/ex1_matplotlib/ex4_rw_visual.py)
 
 <iframe src="https://DREU007.github.io/datavisualisation/Screenshots/dice_two_d6.html" width="100%" height="500"></iframe>
